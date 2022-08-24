@@ -1,0 +1,751 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+}
+
+.toolbar .container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.brand-logo-link {
+  width: 80px;
+  color: orange;
+}
+
+.cart-btn > img {
+  width: 24px;
+  height: 24px;
+}
+
+.cart-btn:hover {
+  background-color: #f4f4f4;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.header-btn {
+  background: none;
+  border: none;
+}
+
+.header-btn:hover {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.brand-logo,
+.toolbar-menu {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: 200ms ease-in-out;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.toolbar-menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toolbar-menu ul li {
+  margin: 0px 10px;
+}
+
+.toolbar-menu ul img {
+  width: 30px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  height: 50px;
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 10px;
+  background-color: #f4f4f4;
+}
+
+.search-box > input {
+  width: 95%;
+  align-items: center;
+  display: flex;
+  border: none;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #f4f4f4;
+}
+
+.search-box > input::placeholder {
+  font-size: 18px;
+}
+
+.mega-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.mega-menu-content {
+  margin: 0 3.5rem 0 3.5rem;
+}
+
+.mega-nav-list {
+  flex: 0 1 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3.5rem 0 3.5rem;
+  font-size: 14px;
+}
+
+.mega-nav-list > li {
+  list-style-type: none;
+}
+
+.container {
+  margin: auto;
+  width: 1300px;
+}
+
+.main-content {
+  background-color: #DDEBE3;
+  height: 200px;
+}
+
+.main-content-title {
+  padding: 30px 12px 18px 12px;
+  font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
+    "Noto Serif Light", "Droid Serif", Georgia, serif;
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.feature-card-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 35px;
+}
+
+.feature-card {
+  padding: 9px 30px 9px 30px;
+}
+
+.feature-card:hover {
+  transform: scale(1.1);
+  transition: 0.5s all;
+  border-bottom: 1px solid black;
+}
+
+.feature-card-img {
+  border-radius: 50%;
+}
+
+.feature-card-title {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 200ms ease-out;
+  text-align: center;
+}
+
+.popular-right-now {
+  margin-top: 200px;
+}
+
+.popular-right-now .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.popular-right-now .container .popular-item {
+  width: 210px;
+  height: 260px;
+  position: relative;
+}
+
+.popular-right-now .container .popular-item #play {
+  position: absolute;
+  top: 130px;
+  color: #fff;
+  right: 10px;
+}
+
+.popular-right-now .container .popular-item:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  outline: 5px solid white;
+  border-radius: 5px;
+}
+
+.popular-right-now .container .popular-item img {
+  width: 100%;
+  border-radius: 5px;
+  height: 160px;
+}
+
+.popular-right-now .container .popular-item .popular-item-content {
+  padding: 4px;
+}
+
+.popular-right-now .container .popular-item .popular-item-content h1 {
+  font-size: 20px;
+}
+
+.popular-right-now .container .popular-item .popular-item-content .score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popular-right-now .container .popular-item .popular-item-content .score .rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popular-right-now .container .popular-item .popular-item-content .score .rating i {
+  font-size: 20px;
+}
+
+.popular-right-now .container .popular-item .popular-item-content .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.popular-right-now .container .popular-item .popular-item-content .price .discount {
+  color: #258635;
+  text-decoration: line-through;
+}
+
+.unique-items {
+  margin-top: 50px;
+}
+
+.unique-items .container h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.unique-items .container .unique-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.unique-items .container .unique-list .unique-list-item:hover {
+  border-bottom: 2px solid black;
+}
+
+.unique-items .container .unique-item {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 2rem;
+      grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+
+.unique-items .container .unique-item .span-big {
+  position: relative;
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.unique-items .container .unique-item .span-big img {
+  width: 100%;
+}
+
+.unique-items .container .unique-item .span-big .material-icons {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+}
+
+.unique-items .container .unique-item .span-small {
+  grid-row: span 1;
+  grid-column: span 1;
+  position: relative;
+}
+
+.unique-items .container .unique-item .span-small img {
+  width: 100%;
+}
+
+.unique-items .container .unique-item .span-small .material-icons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+}
+
+.our-selection {
+  margin-top: 20px;
+}
+
+.our-selection .container h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.our-selection .container h1:hover > i {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  margin-left: 1rem;
+}
+
+.our-selection .container h1 a {
+  color: #000;
+}
+
+.our-selection .container span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.our-selection .container .selection-items {
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(5, 1fr);
+}
+
+.our-selection .container .selection-items .selection-item {
+  width: 250px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.our-selection .container .selection-items .selection-item:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.our-selection .container .selection-items .selection-item .selection-img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.our-selection .container .selection-items .selection-item h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.whatIsEtsy {
+  width: 100%;
+  background-color: #fdebd2;
+  height: 500px;
+}
+
+.whatIsEtsy .container h1 {
+  position: relative;
+  top: 75px;
+  text-align: center;
+}
+
+.whatIsEtsy .container a {
+  top: 75px;
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.whatIsEtsy .container .etsy-sections {
+  position: relative;
+  top: 100px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.whatIsEtsy .container .etsy-sections .etsy-section {
+  margin: 0 5px;
+  padding: 5px;
+  position: relative;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+
+.whatIsEtsy .container .etsy-sections .etsy-section h4 {
+  font-size: 28px;
+  line-height: 36px;
+  padding: 5px 0;
+}
+
+.whatIsEtsy .container .etsy-sections .etsy-section .popup-text {
+  -webkit-text-decoration: underline dashed;
+          text-decoration: underline dashed;
+}
+
+.whatIsEtsy .container .etsy-sections .etsy-section .popup-text:hover + .popup {
+  display: block;
+}
+
+.whatIsEtsy .container .etsy-sections .etsy-section .popup {
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  padding: 15px 30px;
+  bottom: 50px;
+  border-radius: 10px;
+}
+
+.whatIsEtsy .container .etsy-sections .etsy-section .popup:hover {
+  display: block;
+}
+
+.whatIsEtsy .container .etsy-sections .etsy-section .popup .popup-content li {
+  list-style-type: disc;
+}
+
+.whatIsEtsy .container .help {
+  position: relative;
+  top: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.whatIsEtsy .container .help h4 {
+  padding: 5px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.whatIsEtsy .container .help .help-btn {
+  padding: 15px 30px;
+  border-radius: 40px;
+  background-color: transparent;
+  border: 1px solid black;
+  -webkit-transition: 0.1s all ease;
+  transition: 0.1s all ease;
+  margin-top: 10px;
+}
+
+.whatIsEtsy .container .help .help-btn:hover {
+  border: 2px solid black;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+footer .footer-form {
+  background-color: #d7e6f5;
+}
+
+footer .footer-form .form {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer-form .form h3 {
+  font-size: 22px;
+}
+
+footer .footer-form .form .form-group {
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 345px;
+  height: 40px;
+  border-radius: 20px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-form .form .form-group input {
+  height: 100%;
+  width: 250px;
+  text-indent: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+footer .footer-form .form .form-group .btn-footer {
+  background: transparent;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+}
+
+footer .footer-form .form .form-group .btn-footer:hover {
+  background: #000;
+  color: #fff;
+}
+
+footer .powered {
+  background-color: #4d6bc6;
+}
+
+footer .powered .container {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+footer .powered .container .world {
+  width: 35px;
+  cursor: help;
+  margin: 0 10px;
+}
+
+footer .powered .container p {
+  cursor: help;
+}
+
+footer .powered .container p:hover + .world-popup {
+  display: block;
+}
+
+footer .powered .container .world-popup {
+  display: none;
+  position: absolute;
+  color: #000;
+  bottom: 50px;
+  left: 40%;
+  padding: 10px;
+  width: 300px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+footer .footer-menu {
+  background-color: #2f466c;
+  padding: 20px 0;
+}
+
+footer .footer-menu .container {
+  position: relative;
+}
+
+footer .footer-menu .container .links {
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(4, 1fr);
+}
+
+footer .footer-menu .container .links .help,
+footer .footer-menu .container .links .about,
+footer .footer-menu .container .links .sell,
+footer .footer-menu .container .links .shop {
+  margin-top: 50px;
+}
+
+footer .footer-menu .container .links .help h4,
+footer .footer-menu .container .links .about h4,
+footer .footer-menu .container .links .sell h4,
+footer .footer-menu .container .links .shop h4 {
+  color: #fff;
+  margin: 10px 0;
+}
+
+footer .footer-menu .container .links .help li,
+footer .footer-menu .container .links .about li,
+footer .footer-menu .container .links .sell li,
+footer .footer-menu .container .links .shop li {
+  padding: 5px 0;
+}
+
+footer .footer-menu .container .links .help li a,
+footer .footer-menu .container .links .about li a,
+footer .footer-menu .container .links .sell li a,
+footer .footer-menu .container .links .shop li a {
+  color: #fff;
+}
+
+footer .footer-menu .container .etsy-links {
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+}
+
+footer .footer-menu .container .etsy-links .app {
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  border: 2px solid white;
+  padding: 5px 0;
+  width: 230px;
+}
+
+footer .footer-menu .container .etsy-links .app .e {
+  font-size: 1.3rem;
+  background-color: #fff;
+  color: #000;
+  padding: 0 5px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+footer .footer-menu .container .etsy-links .social-media {
+  margin-top: 20px;
+}
+
+footer .footer-menu .container .etsy-links .social-media .social-media-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.4rem;
+}
+
+footer .footer-menu .container .etsy-links .social-media .social-media-list .social-media-icon {
+  margin: 0 15px;
+}
+
+footer .footer-menu .container .etsy-links .social-media .social-media-list .social-media-icon a {
+  color: #fff;
+}
+
+footer .footer-help {
+  background: #232347;
+}
+
+footer .footer-help .container {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-help .container .local-picker {
+  color: #fff;
+}
+
+footer .footer-help .container .site-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+footer .footer-help .container .site-about li {
+  margin: 0 10px;
+}
+
+footer .footer-help .container .site-about li a {
+  color: #fff;
+  text-decoration: underline;
+}
